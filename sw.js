@@ -8,7 +8,7 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache.addAll([
-        '/',
+        'https://kempzor.github.io/zor/index',
         /*
           DEAR READER,
           ADD A LIST OF YOUR ASSETS THAT
