@@ -1,7 +1,7 @@
 {
     "theme_color": "#f69435",
     "background_color": "#f69435",
-    "display": "browser",
+    "display": "standalone",
     "scope": "https://kempzor.github.io/zor/index",
     "start_url": "https://kempzor.github.io/zor/index",
     "app_name": "KEMP",
