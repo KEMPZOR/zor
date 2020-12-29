@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "https://kempzor.github.io/zor/index",
     "start_url": "https://kempzor.github.io/zor/index",
-    "app_name": "KEMP",
+    "app_name": "KEMPZOR",
     "name": "KEMPZOR",
-    "short_name": "Zor",
+    "short_name": "PWA Maxim Plotnikov",
     "icons": [
         {
             "src": "icon-192x192.png",
