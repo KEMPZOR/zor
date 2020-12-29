@@ -5,6 +5,7 @@
     "scope": "https://kempzor.github.io/zor/index",
     "start_url": "https://kempzor.github.io/zor/index",
     "app_name": "KEMP",
+    "name": "KEMPZOR",
     "short_name": "Zor",
     "icons": [
         {
