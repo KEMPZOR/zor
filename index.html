@@ -136,7 +136,7 @@ window.addEventListener('beforeinstallprompt', function (event) {
 btnInstall.addEventListener('click', function () {
     btnInstall.setAttribute('disabled', '');
     if (installPromptEvent === undefined) {
-            сonsole.log('Installed');
+            console.log('User accepted the A2HS prompt');
             btnInstall.textContent = '😉 Приложение уже установлено';
             btnInstall.classList.remove('orange');
             btnInstall.classList.add('blue');
