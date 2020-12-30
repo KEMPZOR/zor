@@ -135,9 +135,7 @@ window.addEventListener('beforeinstallprompt', function (event) {
 
 btnInstall.addEventListener('click', function () {
     btnInstall.setAttribute('disabled', '');
-    if (installPromptEvent.prompt()) {
     installPromptEvent.prompt();
-    }
     installPromptEvent.userChoice.then((choice) => {
         if (choice.outcome === 'accepted') {
             console.log('User accepted the A2HS prompt');
