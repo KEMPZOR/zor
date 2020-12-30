@@ -138,6 +138,7 @@ btnInstall.addEventListener('click', function () {
     if (installPromptEvent !== undefined) {
           installPromptEvent.prompt();
     }
+    if (nstallPromptEvent.userChoice !== undefined) {
     installPromptEvent.userChoice.then((choice) => {
         if (choice.outcome === 'accepted') {
             console.log('User accepted the A2HS prompt');
@@ -148,8 +149,9 @@ btnInstall.addEventListener('click', function () {
             console.log('User dismissed the A2HS prompt');
             btnInstall.textContent = '🥺 Давай ещё раз попробуем установить, а?';
             btnInstall.classList.remove('orange');
-            btnInstall.classList.add('red');
+            btnInstall.classList.add('red');            
         }
+    }
         installPromptEvent = null;
     });
 });    
